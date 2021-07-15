@@ -8,7 +8,7 @@ class Pessoa {
 
     constructor()
 
-    fun person() = println("Nome :" +" $nome " + "CPF = " + "$cpf")
+    fun person() = "$nome e $cpf"
 
 
 }
@@ -16,6 +16,6 @@ class Pessoa {
 fun main() {
     val maria = Pessoa()
 
-    maria.person()
+    println(maria.person())
 
 }
